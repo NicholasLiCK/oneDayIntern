@@ -1,6 +1,6 @@
 import json
 
-with open('ptt_dump_20210218_1141.json', 'r') as f:
+with open('ptt_dump_20210218_1132.json', 'r') as f:
     file = json.load(f)
 
 
@@ -20,8 +20,8 @@ def searchStr(input_str):
 if __name__ == '__main__':
     
     print('Articles')
-    print('Alisasa')
-    print('PUIPUI')
+    print('愛莉莎莎')
+    print('天竺鼠車車')
     
     request = input("Enter one of above:")
     
