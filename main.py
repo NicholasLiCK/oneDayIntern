@@ -19,13 +19,16 @@ def searchStr(input_str):
 
 if __name__ == '__main__':
     
-    print('Articles')
+    print('All_Articles')
     print('愛莉莎莎')
     print('天竺鼠車車')
     
     request = input("Enter one of above:")
     
-    ans = searchStr(request)
+    if request == 'All_Articles':
+        ans = file
+    else:
+        ans = searchStr(request)
     
     print(ans)
     
